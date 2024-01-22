@@ -69,7 +69,11 @@
           </p>
         </div>
         <div class="flex justify-between mt-5 items-center">
-          <select class="p-2 border-2 rounded-lg" @change="onSelectQuantity(product.id)" v-model="selected">
+          <select
+            class="p-2 border-2 rounded-lg min-w-16 cursor-pointer"
+            @change="onSelectQuantity(product.id)"
+            v-model="selected"
+          >
             <option v-bind:key="quantity" v-for="quantity in quantityArray" :value="quantity">
               {{ quantity }}
             </option>
