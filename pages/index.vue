@@ -40,9 +40,7 @@ export default {
         {
           rel: "stylesheet",
           href: "https://unpkg.com/vueperslides/dist/vueperslides.css"
-        }
-      ],
-      link: [
+        },
         {
           rel: "stylesheet",
           href: "https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel-theme.min.css"
