@@ -41,7 +41,7 @@ module.exports = {
   css: ["@/assets/css/main.css"],
 
   // Plugins to load before mounting the App
-  plugins: [],
+  plugins: [{ src: "~/plugins/persistedState.client.js" }],
 
   // Nuxt.js modules
   modules: ["@nuxt/postcss8", "nuxt-purgecss"],
