@@ -24,12 +24,28 @@ export default {
           src: "https://unpkg.com/vueperslides",
           async: true,
           defer: true
+        },
+        {
+          src: "https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel.umd.min.js",
+          async: true,
+          defer: true
+        },
+        {
+          src: "https://unpkg.com/vue-slick-carousel",
+          async: true,
+          defer: true
         }
       ],
       link: [
         {
           rel: "stylesheet",
           href: "https://unpkg.com/vueperslides/dist/vueperslides.css"
+        }
+      ],
+      link: [
+        {
+          rel: "stylesheet",
+          href: "https://cdn.jsdelivr.net/npm/vue-slick-carousel@1.0.6/dist/vue-slick-carousel-theme.min.css"
         }
       ]
     }
