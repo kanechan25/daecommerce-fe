@@ -14,6 +14,8 @@
 import VueSlickCarousel from "vue-slick-carousel"
 import "vue-slick-carousel/dist/vue-slick-carousel.css"
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
+import "./vue-slick-carousel.css"
+import "./vue-slick-carousel-theme.css"
 
 export default {
   name: "MyComponent",
@@ -47,5 +49,8 @@ button.slick-next {
 }
 button.slick-prev {
   left: -35px;
+}
+.slick-list {
+  overflow: hidden !important;
 }
 </style>

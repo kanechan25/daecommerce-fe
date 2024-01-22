@@ -8,7 +8,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
           </p>
           <div class="flex mt-8 space-x-6 text-gray-600">
-            <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <NuxtLink class="hover:opacity-75" to="/" target="_blank" rel="noreferrer">
               <span class="sr-only"> Facebook </span>
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -17,8 +17,8 @@
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
-            <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            </NuxtLink>
+            <NuxtLink class="hover:opacity-75" to="/" target="_blank" rel="noreferrer">
               <span class="sr-only"> Instagram </span>
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -27,51 +27,51 @@
                   clipRule="evenodd"
                 />
               </svg>
-            </a>
-            <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
+            </NuxtLink>
+            <NuxtLink class="hover:opacity-75" to="/" target="_blank" rel="noreferrer">
               <span class="sr-only"> Twitter </span>
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
                 />
               </svg>
-            </a>
+            </NuxtLink>
           </div>
         </div>
         <div class="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <p class="font-medium">Company</p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">About</a>
-              <a class="link" href="#">Meet the Team</a>
-              <a class="link" href="#">History</a>
-              <a class="link" href="#">Careers</a>
+              <NuxtLink class="link" to="/">About</NuxtLink>
+              <NuxtLink class="link" to="/">Meet the Team</NuxtLink>
+              <NuxtLink class="link" to="/">History</NuxtLink>
+              <NuxtLink class="link" to="/">Careers</NuxtLink>
             </nav>
           </div>
           <div>
             <p class="font-medium">Services</p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">Company Review</a>
-              <a class="link" href="#">Accounts Review</a>
-              <a class="link" href="#">HR Consulting</a>
-              <a class="link" href="#">SEO Optimisation</a>
+              <NuxtLink class="link" to="/">Company Review</NuxtLink>
+              <NuxtLink class="link" to="/">Accounts Review</NuxtLink>
+              <NuxtLink class="link" to="/">HR Consulting</NuxtLink>
+              <NuxtLink class="link" to="/">SEO Optimisation</NuxtLink>
             </nav>
           </div>
           <div>
             <p class="font-medium">Helpful Links</p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">Contact</a>
-              <a class="link" href="#">FAQs</a>
-              <a class="link" href="#">Live Chat</a>
+              <NuxtLink class="link" to="/">Contact</NuxtLink>
+              <NuxtLink class="link" to="/">FAQs</NuxtLink>
+              <NuxtLink class="link" to="/">Live Chat</NuxtLink>
             </nav>
           </div>
           <div>
             <p class="font-medium">Legal</p>
             <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-              <a class="link" href="#">Privacy Policy</a>
-              <a class="link" href="#">Terms &amp; Conditions</a>
-              <a class="link" href="#">Returns Policy</a>
-              <a class="link" href="#">Accessibility</a>
+              <NuxtLink class="link" to="/">Privacy Policy</NuxtLink>
+              <NuxtLink class="link" to="/">Terms &amp; Conditions</NuxtLink>
+              <NuxtLink class="link" to="/">Returns Policy</NuxtLink>
+              <NuxtLink class="link" to="/">Accessibility</NuxtLink>
             </nav>
           </div>
         </div>

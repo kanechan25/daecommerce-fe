@@ -17,6 +17,8 @@ import VmFooter from "@/components/footer/Footer"
 import VmLoginModal from "@/components/modal/Login"
 import VmSignupModal from "@/components/modal/Signup"
 import VmCheckoutModal from "@/components/modal/Checkout"
+import "vue-slick-carousel/dist/vue-slick-carousel.css"
+import "vue-slick-carousel/dist/vue-slick-carousel-theme.css"
 
 export default {
   components: {
